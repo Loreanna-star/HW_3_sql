@@ -14,4 +14,4 @@ SELECT singer_stage_name FROM singers
 WHERE singer_stage_name NOT LIKE '% %';
 
 SELECT track_name FROM tracks
-WHERE track_name LIKE '%My%';
+WHERE track_name iLIKE '%my%';
